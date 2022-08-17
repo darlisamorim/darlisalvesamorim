@@ -60,7 +60,7 @@
 
         <h1 class="header__logo fz">
           <span>{SITE_TITLE}</span>
-          <img src="<?= DOMAIN; ?>_storage/images/<?= DAA_LOGOTIPO; ?>" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" />
+          <img src="<?= DOMAIN; ?>/_storage/images/<?= DAA_LOGOTIPO; ?>" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" />
         </h1>
         <!-- Fim Logotipo -->
 
