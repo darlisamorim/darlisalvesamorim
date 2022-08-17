@@ -1,27 +1,29 @@
-<!DOCTYPE html>
-<html lang="<?= DAA_LOCALE; ?>" itemscope itemtype="https://schema.org/WebSite" prefix="og: https://ogp.me/ns#"> <!-- Set your country language and website schema -->
+<?php
+  require 'source/controller.php';
+?><!DOCTYPE html>
+<html lang="<?= DAA_LOCALE ?>" itemscope itemtype="<?= DAA_SCHEMA; ?>" prefix="og: <?= DAA_SCHEMA_OPEN_GRAPH; ?>"> <!-- Set your country language and website schema -->
   <head>
-    <meta charset="UTF-8" /> <!-- Unicode default( UTF-8 )  -->
+    <meta charset="<?= DAA_CHARSET; ?>" /> <!-- Unicode default( UTF-8 )  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{SITE_TITLE} | {SITE_SUBNAME}</title>
+    <title><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></title>
 
     <!-- Defaults Metas -->
-    <meta name="description" content="{SITE_DESCRIPTION}" />
-    <meta name="robots" content="index, follow" /> <!-- Allow browsers to index -->
-    <meta name="google-site-verification" content="{GOOGLE_CHECK}" /> <!-- Tag Google -->
+    <meta name="description" content="<?= DAA_DESCRIPTION; ?>" />
+    <meta name="robots" content="index, follow" /> <!-- Allow browsers to index --> 
+    <meta name="google-site-verification" content="<?= DAA_GOOGLE_VERI; ?>" /> <!-- Tag Google -->
 
     <!-- Defaults Links -->
-    <link rel="base" href="{SITE_URL}" /> <!-- Website Url -->
-    <link rel="canonical" href="{SITE_URL}" /> <!-- Website Url -->
+    <link rel="base" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
+    <link rel="canonical" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
     <link rel="alternate" type="application/rss+xml" href="{SITE_URL}" /> <!-- RSS Url -->
     <link rel="sitemap" type="application/xml" href="{SITE_DESCRIPTION}" /> <!-- Sitemap Url -->
-    <link rel="author" href="{SITE_URL_PAGE_AUTOR}" /> <!-- Personal profile of the author of the site ( Example Facebook profile )  -->
-    <link rel="publisher" href="{SITE_URL_PAGE_WEBSITE}" /> <!-- Personal website page (Example website page on Facebook) -->
+    <link rel="author" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal profile of the author of the site ( Example Facebook profile )  -->
+    <link rel="publisher" href="<?= DAA_FB_PAGE; ?>" />" /> <!-- Personal website page (Example website page on Facebook) -->
 
     <?php require 'partls/seo.php'; ?>
     <!-- All Metas( Itemprop and Property ( Og:, Article:, Twitter: ) ) -->
 
-    <link rel="shortcut icon" href="{SITE_URL}/_storage/images/favicon.png" /> <!-- Imagem Favicon -->
+    <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/favicon.png" /> <!-- Imagem Favicon -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">

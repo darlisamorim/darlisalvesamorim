@@ -1,7 +1,3 @@
-<?php
-  require 'source/controller.php';
-?>
-    
     <!--
       Schema Microdata
       https://schema.org or https://schema.org/WebSite
