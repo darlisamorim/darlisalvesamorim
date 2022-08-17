@@ -1,4 +1,4 @@
-<h1 align='center'> Darlis Alves Amorim 👋, front-end project for portfolio 🧑🏻‍💻 </h1>
+<h1 align='center'> Darlis A. Amorim 👋, front-end project for portfolio 🧑🏻‍💻 </h1>
 
 <p align='center'>
   Hope you like this foundation.
