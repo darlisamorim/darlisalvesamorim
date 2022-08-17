@@ -1,24 +1,24 @@
-<?php
-  require 'source/controller.php';
+<?php 
+  require 'source/controller.php'; 
 ?><!DOCTYPE html>
-<html lang="<?= DAA_LOCALE ?>" itemscope itemtype="<?= DAA_SCHEMA; ?>" prefix="og: <?= DAA_SCHEMA_OPEN_GRAPH; ?>"> <!-- Set your country language and website schema -->
+<html lang="<?= DAA_LOCALE; ?>" itemscope itemtype="<?= DAA_SCHEMA; ?>" prefix="og: <?= DAA_SCHEMA_OPEN_GRAPH; ?>"> <!-- Set your country language and website schema -->
   <head>
     <meta charset="<?= DAA_CHARSET; ?>" /> <!-- Unicode default( UTF-8 )  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Default vieweport responsive design -->
+    <title><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></title> <!-- Website Title -->
 
     <!-- Defaults Metas -->
-    <meta name="description" content="<?= DAA_DESCRIPTION; ?>" />
-    <meta name="robots" content="index, follow" /> <!-- Allow browsers to index --> 
+    <meta name="description" content="<?= DAA_DESCRIPTION; ?>" /> <!-- Website Description -->
+    <meta name="robots" content="index, follow" /> <!-- Allow browsers to index -->
     <meta name="google-site-verification" content="<?= DAA_GOOGLE_VERI; ?>" /> <!-- Tag Google -->
 
     <!-- Defaults Links -->
     <link rel="base" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
     <link rel="canonical" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
-    <link rel="alternate" type="application/rss+xml" href="{SITE_URL}" /> <!-- RSS Url -->
-    <link rel="sitemap" type="application/xml" href="{SITE_DESCRIPTION}" /> <!-- Sitemap Url -->
+    <link rel="alternate" type="application/rss+xml" href="<?= DOMAIN; ?>/rss.php" /> <!-- RSS Url -->
+    <link rel="sitemap" type="application/xml" href="<?= DOMAIN; ?>/sitemap.php" /> <!-- Sitemap Url -->
     <link rel="author" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal profile of the author of the site ( Example Facebook profile )  -->
-    <link rel="publisher" href="<?= DAA_FB_PAGE; ?>" />" /> <!-- Personal website page (Example website page on Facebook) -->
+    <link rel="publisher" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal website page (Example website page on Facebook) -->
 
     <?php require 'partls/seo.php'; ?>
     <!-- All Metas( Itemprop and Property ( Og:, Article:, Twitter: ) ) -->
@@ -26,11 +26,7 @@
     <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/favicon.png" /> <!-- Imagem Favicon -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <!-- font-family: 'Roboto Mono', monospace; -->
-    <!-- font-family: 'Source Code Pro', monospace; -->
+    <link href="https://fonts.googleapis.com/css2?family=<?= DAA_FONT_NAME; ?>:wght@<?= DAA_FONT_WEIGHT; ?>&display=swap" rel="stylesheet"> <!-- Importing font from google -->
 
     <!-- All Styles -->
     <!-- <link rel="stylesheet" href="_storage/css/components/normalize.css"> --> <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->
@@ -52,7 +48,7 @@
     <link rel="stylesheet" href="_storage/css/components/animate.css"> <!-- Animete Style -->
 
     <!--[if lt IE 9]>
-      <script src="{SITE_URL}/_storage/js/html5shiv.js"></script>
+      <script src="<?= DOMAIN; ?>/_storage/js/html5shiv.js"></script>
     <![endif]-->
 
   </head>
