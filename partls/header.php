@@ -23,7 +23,7 @@
     <?php require 'partls/seo.php'; ?>
     <!-- All Metas( Itemprop and Property ( Og:, Article:, Twitter: ) ) -->
 
-    <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/favicon.png" /> <!-- Imagem Favicon -->
+    <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/<?= DAA_IMAGE_FAVICON; ?>" /> <!-- Imagem Favicon -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=<?= DAA_FONT_NAME; ?>:wght@<?= DAA_FONT_WEIGHT; ?>&display=swap" rel="stylesheet"> <!-- Importing font from google -->
@@ -60,15 +60,15 @@
 
         <h1 class="header__logo fz">
           <span>{SITE_TITLE}</span>
-          <img src="_storage/images/logo.svg" title="{SITE_TITLE} | {SITE_SUBNAME}" alt="{SITE_TITLE} | {SITE_SUBNAME}" />
+          <img src="<?= DOMAIN; ?>_storage/images/<?= DAA_LOGOTIPO; ?>" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" />
         </h1>
         <!-- Fim Logotipo -->
 
         <nav class="header__menu">
-          <h2 class="fz">Navegação {SITE_TITLE}</h2>
+          <h2 class="fz">Navegação <?= DAA_NAME; ?></h2>
           <ul>
             <li>
-              <a title="{SITE_TITLE} | {SITE_SUBNAME}" href="{SITE_URL}">Home</a>
+              <a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="{SITE_URL}">Home</a>
             </li>
             <li>
               <a title="{PAGE_NAME} or {ARTICLE_NAME} | {SITE_TITLE}" href="#article__1">Quem Somos</a>

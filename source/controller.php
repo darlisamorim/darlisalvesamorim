@@ -23,6 +23,7 @@
   define('DAA_LOGOTIPO', 'logotipo.svg'); // Image Logotipo
   define('DAA_AVATAR', 'avatar.svg'); // Image Avatar
   define('DAA_IMAGE_SHARE', 'default.svg'); // Default Image Website
+  define('DAA_IMAGE_FAVICON', 'favicon.svg'); // Default Image Website
   define('DAA_CV', 'curriculo_darlisalvesamorim.pdf'); // CV Download
       
   define('DAA_NAME', 'Darlis Alves Amorim_'); // Name Website
