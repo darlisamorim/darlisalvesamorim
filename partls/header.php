@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" itemscope itemtype="https://schema.org/WebSite"> <!-- Set your country language and website schema -->
- <!-- <html lang="pt-br" itemscope itemtype="https://schema.org/WebSite" prefix="og: https://ogp.me/ns#"> Set your country language and website schema -->
+<html lang="<?= DAA_LOCALE; ?>" itemscope itemtype="https://schema.org/WebSite" prefix="og: https://ogp.me/ns#"> <!-- Set your country language and website schema -->
   <head>
     <meta charset="UTF-8" /> <!-- Unicode default( UTF-8 )  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,7 +24,11 @@
     <link rel="shortcut icon" href="{SITE_URL}/_storage/images/favicon.png" /> <!-- Imagem Favicon -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> <!-- Importing font from google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Roboto Mono', monospace; -->
+    <!-- font-family: 'Source Code Pro', monospace; -->
 
     <!-- All Styles -->
     <!-- <link rel="stylesheet" href="_storage/css/components/normalize.css"> --> <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->

@@ -1,10 +1,14 @@
+<?php
+  require 'source/controller.php';
+?>
+    
     <!--
       Schema Microdata
       https://schema.org or https://schema.org/WebSite
     -->
     <meta itemprop="name" content="{SITE_TITLE} | {SITE_SUBNAME}" />
     <meta itemprop="description" content="{SITE_DESCRIPTION}" />
-    <meta itemprop="url" content="{SITE_URL}" />
+    <meta itemprop="url" content="<?= BASE; ?>" />
     <meta itemprop="image" content="{SITE_IMAGE_DEFAULT}" />
 
     <!--

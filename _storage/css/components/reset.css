@@ -5,6 +5,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-weight: inherit;
+    /* font-family: var(--font-base); */
+    font-style: inherit;
+    font-size: 100%;
 }
 
 embed, video, iframe, iframe[style] {
