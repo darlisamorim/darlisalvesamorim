@@ -60,7 +60,19 @@
   define('DAA_TIKTOK', '@darlisamorim'); 
   
 
-
+  // My Informations
+  define("DAA_EMAIL", "eu@darlisalvesamorim.com"); // E-mail
+  define("DAA_RS", "");  // Razão social
+  define("DAA_CNPJ", "");  // CNPJ da empresa
+  define("DAA_IE", ""); // Inscrição estadual da empresa
+  define("DAA_PHONE_A", "+55 (11) 966-274-729"); // Telefone A
+  define("DAA_ADDR", "Av. Interlagos, 4944"); // Endereço da empresa
+  define("DAA_CITY", "São Paulo"); // Cidade onde a empresa esta
+  define("DAA_DISTRICT", "SP/Zona Sul"); // Distrito/Bairro da empresa
+  define("DAA_UF", "SP"); // UF do estado
+  define("DAA_ZIP", "04777-000"); // CEP
+  define("DAA_COUNTRY", "Brasil"); // País  
+  define("DAA_AGE", date('Y') - 1995); // Idade
 
 
     // E-MAIL

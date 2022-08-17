@@ -20,7 +20,7 @@
     <link rel="author" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal profile of the author of the site ( Example Facebook profile )  -->
     <link rel="publisher" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal website page (Example website page on Facebook) -->
 
-    <?php require 'partls/seo.php'; ?>
+    <?php require 'source/seo.php'; ?>
     <!-- All Metas( Itemprop and Property ( Og:, Article:, Twitter: ) ) -->
 
     <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/<?= DAA_IMAGE_FAVICON; ?>" /> <!-- Imagem Favicon -->
