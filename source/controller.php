@@ -25,7 +25,7 @@
   define('DAA_IMAGE_SHARE', 'default.svg'); // Default Image Website
   define('DAA_CV', 'curriculo_darlisalvesamorim.pdf'); // CV Download
       
-  define('DAA_NAME', 'Darlis A. Amorim_'); // Name Website
+  define('DAA_NAME', 'Darlis Alves Amorim_'); // Name Website
   define('DAA_SUBNAME', 'Software Engineer end Full Stack Developer Freelancer Front-end & Back-end of São Paulo/SP'); // Subname WebSite
   define('DAA_DESCRIPTION', 'Software Engineer end Full Stack Developer of São Paulo/SP'); // Description Website
 
