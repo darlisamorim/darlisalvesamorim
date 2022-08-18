@@ -85,7 +85,7 @@ require 'source/controller.php';
           <dt>Idade:</dt>
           <dd><?= DAA_AGE; ?></dd>
           <dt class="">Telefone:</dt>
-          <dd><?= DAA_PHONE; ?></dd>
+          <dd class="fz"><?= DAA_PHONE; ?></dd>
           <dt>E-mail:</dt>
           <dd><?= DAA_EMAIL; ?></dd>
           <dt>Endereço:</dt>
