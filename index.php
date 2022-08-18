@@ -8,6 +8,7 @@
     <article class="article__bio">
       <h1>Bom te ver aqui</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reiciendis itaque veritatis deserunt voluptas temporibus aliquid, placeat, ex vero omnis vel possimus voluptatem, debitis tempora eos. Voluptates consequatur deserunt quis!</p>
+      <button><i class='bx bxs-download'></i> Download CV</button>
     </article>
   </section>
   <!-- Fim Section.bio -->
