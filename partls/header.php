@@ -61,6 +61,7 @@ require 'source/controller.php';
     <h1 class="fz"><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></h1>
 
     <nav class="menu">
+      <h3 class="fz">Navegação | <?= DAA_NAME; ?></h3>
       <ul>
         <li><a title="Meu nome é | <?= DAA_NAME; ?>" href="">Olá</a></li>
         <li><a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="">Sobre Mim</a></li>
@@ -77,7 +78,7 @@ require 'source/controller.php';
 
       <article class="infos">
         <header class="article__header">
-          <h1>Darlis A. Amorim_</h1>
+          <h1><span class="fz">Informações | </span><?= DAA_NAME; ?></h1>
           <p>Developer & Design.</p>
         </header>
         <dl>
@@ -91,15 +92,16 @@ require 'source/controller.php';
           <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
         </dl>
         <ul>
-          <li><a title="" href="<?= DAA_LINKEDIN; ?>"><i class='bx bxl-linkedin-square'></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-github' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-codepen' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-dev-to' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-medium-square' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-dribbble' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-behance' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-deviantart' ></i></a></li>
-          <li><a title="" href=""><i class='bx bxl-pinterest' ></i></a></li>
+          <li><a title="Links | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>"><i class='bx bxs-share-alt'></i></a></li>
+          <li><a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>"><i class='bx bxl-linkedin-square'></i></a></li>
+          <li><a title="GitHub | <?= DAA_NAME; ?>" href=""><i class='bx bxl-github' ></i></a></li>
+          <li><a title="CodePen | <?= DAA_NAME; ?>" href=""><i class='bx bxl-codepen' ></i></a></li>
+          <li><a title="Dev.To | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dev-to' ></i></a></li>
+          <li><a title="Medium | <?= DAA_NAME; ?>" href=""><i class='bx bxl-medium-square' ></i></a></li>
+          <li><a title="Dribbble | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dribbble' ></i></a></li>
+          <li><a title="Behance | <?= DAA_NAME; ?>" href=""><i class='bx bxl-behance' ></i></a></li>
+          <li><a title="Deviantart | <?= DAA_NAME; ?>" href=""><i class='bx bxl-deviantart' ></i></a></li>
+          <li><a title="Pinterest | <?= DAA_NAME; ?>" href=""><i class='bx bxl-pinterest' ></i></a></li>
         </ul>
       </article>
     </div>

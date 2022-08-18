@@ -92,7 +92,10 @@ main {
 }
 
 section {
-	padding: 60px 0;
+	padding: 60px 0 0 0;
+}
+section:last-child {
+  padding-bottom: 60px;
 }
 
 /**

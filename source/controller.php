@@ -40,6 +40,7 @@
   define('DAA_FONT_WEIGHT', '100;200;300;400;500;600;700'); // Width Typography  
 
   // NETWORKS
+  define('DAA_LINKS', 'https://linktr.ee/darlisamorim'); // Link.tr / Znap
   define('DAA_LINKEDIN', 'https://www.linkedin.com/in/darlisamorim'); // Linkedin
 
   define('DAA_FB', 'https://www.facebook.com/darlisalvesamorim'); // Profile Facebook

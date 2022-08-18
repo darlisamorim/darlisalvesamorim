@@ -4,8 +4,8 @@
     <!-- Fim Footer -->
 
 
-    <script src="{SITE_URL}/_storage/js/jquery.js"></script>
-    <script src="{SITE_URL}/_storage/js/main.js"></script>
+    <script src="<?= DOMAIN; ?>/_storage/js/jquery.js"></script>
+    <script src="<?= DOMAIN; ?>/_storage/js/main.js"></script>
     <!-- All Scripts -->
 
     <script type="text/javascript">
