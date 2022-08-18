@@ -1,62 +1,109 @@
-<?php 
-  require 'source/controller.php'; 
+<?php
+require 'source/controller.php';
 ?><!DOCTYPE html>
-<html lang="<?= DAA_LOCALE; ?>" itemscope itemtype="<?= DAA_SCHEMA; ?>" prefix="og: <?= DAA_SCHEMA_OPEN_GRAPH; ?>"> <!-- Set your country language and website schema -->
-  <head>
-    <meta charset="<?= DAA_CHARSET; ?>" /> <!-- Unicode default( UTF-8 )  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Default vieweport responsive design -->
-    <title><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></title> <!-- Website Title -->
+<html lang="<?= DAA_LOCALE; ?>" itemscope itemtype="<?= DAA_SCHEMA; ?>" prefix="og: <?= DAA_SCHEMA_OPEN_GRAPH; ?>">
+<!-- Set your country language and website schema -->
 
-    <!-- Defaults Metas -->
-    <meta name="description" content="<?= DAA_DESCRIPTION; ?>" /> <!-- Website Description -->
-    <meta name="robots" content="index, follow" /> <!-- Allow browsers to index -->
-    <meta name="google-site-verification" content="<?= DAA_GOOGLE_VERI; ?>" /> <!-- Tag Google -->
+<head>
+  <meta charset="<?= DAA_CHARSET; ?>" /> <!-- Unicode default( UTF-8 )  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Default vieweport responsive design -->
+  <title><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></title> <!-- Website Title -->
 
-    <!-- Defaults Links -->
-    <link rel="base" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
-    <link rel="canonical" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
-    <link rel="alternate" type="application/rss+xml" href="<?= DOMAIN; ?>/rss.php" /> <!-- RSS Url -->
-    <link rel="sitemap" type="application/xml" href="<?= DOMAIN; ?>/sitemap.php" /> <!-- Sitemap Url -->
-    <link rel="author" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal profile of the author of the site ( Example Facebook profile )  -->
-    <link rel="publisher" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal website page (Example website page on Facebook) -->
+  <!-- Defaults Metas -->
+  <meta name="description" content="<?= DAA_DESCRIPTION; ?>" /> <!-- Website Description -->
+  <meta name="robots" content="index, follow" /> <!-- Allow browsers to index -->
+  <meta name="google-site-verification" content="<?= DAA_GOOGLE_VERI; ?>" /> <!-- Tag Google -->
 
-    <?php require 'source/seo.php'; ?>
-    <!-- All Metas( Itemprop and Property ( Og:, Article:, Twitter: ) ) -->
+  <!-- Defaults Links -->
+  <link rel="base" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
+  <link rel="canonical" href="<?= DOMAIN; ?>" /> <!-- Website Url -->
+  <link rel="alternate" type="application/rss+xml" href="<?= DOMAIN; ?>/rss.php" /> <!-- RSS Url -->
+  <link rel="sitemap" type="application/xml" href="<?= DOMAIN; ?>/sitemap.php" /> <!-- Sitemap Url -->
+  <link rel="author" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal profile of the author of the site ( Example Facebook profile )  -->
+  <link rel="publisher" href="<?= DAA_LINKEDIN; ?>" /> <!-- Personal website page (Example website page on Facebook) -->
 
-    <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/<?= DAA_IMAGE_FAVICON; ?>" /> <!-- Imagem Favicon -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=<?= DAA_FONT_NAME; ?>:wght@<?= DAA_FONT_WEIGHT; ?>&display=swap" rel="stylesheet"> <!-- Importing font from google -->
+  <?php require 'source/seo.php'; ?>
+  <!-- All Metas( Itemprop and Property ( Og:, Article:, Twitter: ) ) -->
 
-    <!-- All Styles -->
-    <link rel="stylesheet" href="_storage/css/components/cssoo.css"> <!-- Defines CSS -->
-    <link rel="stylesheet" href="_storage/css/components/normalize.css"> <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->
-    <link rel="stylesheet" href="_storage/css/components/reset.css"> <!-- Reset CSS -->
+  <link rel="shortcut icon" href="<?= DOMAIN; ?>/_storage/images/<?= DAA_IMAGE_FAVICON; ?>" /> <!-- Imagem Favicon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=<?= DAA_FONT_NAME; ?>:wght@<?= DAA_FONT_WEIGHT; ?>&display=swap" rel="stylesheet"> <!-- Importing font from google -->
 
-    <link rel="stylesheet" href="_storage/css/components/boxicons.css"> <!-- Boxicons -> https://boxicons.com/ -->
-    <link rel="stylesheet" href="_storage/css/components/fontawesome.css"> <!-- Fontawesome -> https://fontawesome.com/icons -->
-    <link rel="stylesheet" href="_storage/css/components/line-awesome.css"> <!-- Line-Awesome -> https://icons8.com/line-awesome -->
+  <!-- All Styles -->
+  <link rel="stylesheet" href="_storage/css/components/cssoo.css"> <!-- Defines CSS -->
+  <link rel="stylesheet" href="_storage/css/components/normalize.css"> <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->
+  <link rel="stylesheet" href="_storage/css/components/reset.css"> <!-- Reset CSS -->
 
-    <link rel="stylesheet" href="_storage/css/components/iconscout.css"> <!-- Iconscout -> https://iconscout.com/ *Pending -->
-    <link rel="stylesheet" href="_storage/css/components/icomoon.css"> <!-- Icomoon -> https://icomoon.io/ *Pending -->
+  <link rel="stylesheet" href="_storage/css/components/boxicons.css"> <!-- Boxicons -> https://boxicons.com/ -->
+  <link rel="stylesheet" href="_storage/css/components/fontawesome.css"> <!-- Fontawesome -> https://fontawesome.com/icons -->
+  <link rel="stylesheet" href="_storage/css/components/line-awesome.css"> <!-- Line-Awesome -> https://icons8.com/line-awesome -->
 
-    <link rel="stylesheet" href="_storage/css/folds/header.css">
-    <link rel="stylesheet" href="_storage/css/folds/main.css">
-    <link rel="stylesheet" href="_storage/css/folds/footer.css">
+  <link rel="stylesheet" href="_storage/css/components/iconscout.css"> <!-- Iconscout -> https://iconscout.com/ *Pending -->
+  <link rel="stylesheet" href="_storage/css/components/icomoon.css"> <!-- Icomoon -> https://icomoon.io/ *Pending -->
 
-    <link rel="stylesheet" href="_storage/css/components/queries.css"> <!-- Media Queries -->
-    <link rel="stylesheet" href="_storage/css/components/animate.css"> <!-- Animete Style -->
+  <link rel="stylesheet" href="_storage/css/folds/header.css">
+  <link rel="stylesheet" href="_storage/css/folds/main.css">
+  <link rel="stylesheet" href="_storage/css/folds/footer.css">
 
-    <!--[if lt IE 9]>
+  <link rel="stylesheet" href="_storage/css/components/queries.css"> <!-- Media Queries -->
+  <link rel="stylesheet" href="_storage/css/components/animate.css"> <!-- Animete Style -->
+
+  <!--[if lt IE 9]>
       <script src="<?= DOMAIN; ?>/_storage/js/html5shiv.js"></script>
     <![endif]-->
 
-  </head>
-  <body>
+</head>
 
-    <header class="header container__flex">
+<body>
 
-      
+  <header class="header container__flex">
+    <h1 class="fz"><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></h1>
 
-    </header>
-    <!-- Fim Header > container -->
+    <nav class="menu">
+      <ul>
+        <li><a title="Meu nome é | <?= DAA_NAME; ?>" href="">Olá</a></li>
+        <li><a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="">Sobre Mim</a></li>
+        <li><a title="Portfólios | <?= DAA_NAME; ?>" href="">Portfólios</a></li>
+        <li><a title="Fale comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
+      </ul>
+    </nav>
+    <!-- Fim Menu -->
+
+    <div class="bio">
+      <figure class="avatar">
+        <img width="200" src="<?= DOMAIN; ?>/_storage/images/avatar.jpg" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>">
+      </figure>
+
+      <article class="infos">
+        <header class="article__header">
+          <h1>Darlis A. Amorim_</h1>
+          <p>Developer & Design.</p>
+        </header>
+        <dl>
+          <dt>Idade:</dt>
+          <dd><?= DAA_AGE; ?></dd>
+          <dt class="">Telefone:</dt>
+          <dd><?= DAA_PHONE; ?></dd>
+          <dt>E-mail:</dt>
+          <dd><?= DAA_EMAIL; ?></dd>
+          <dt>Endereço:</dt>
+          <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
+        </dl>
+        <ul>
+          <li><a title="" href="<?= DAA_LINKEDIN; ?>"><i class='bx bxl-linkedin-square'></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-github' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-codepen' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-dev-to' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-medium-square' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-dribbble' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-behance' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-deviantart' ></i></a></li>
+          <li><a title="" href=""><i class='bx bxl-pinterest' ></i></a></li>
+        </ul>
+      </article>
+    </div>
+
+
+  </header>
+  <!-- Fim Header > container -->

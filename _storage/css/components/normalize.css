@@ -80,7 +80,7 @@ body {
   margin: 0;
   font-family: var(--font-name);
 	font-size: var(--font-normal);
-	background-color: var(--gray);
+	background-color: var(--white);
 }
 
 /**
@@ -89,6 +89,10 @@ body {
 
 main {
   display: block;
+}
+
+section {
+	padding: 60px 0;
 }
 
 /**

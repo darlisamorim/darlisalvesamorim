@@ -56,6 +56,7 @@
   define('DAA_MEDIUM', '@darlisamorim'); 
   define('DAA_DRIBBBLE', 'darlisamorim'); 
   define('DAA_BEHANCE', 'darlisamorim'); 
+  define('DAA_DEVIANTART', 'darlisamorim'); 
   define('DAA_PINTEREST', 'darlisamorim'); 
   define('DAA_TIKTOK', '@darlisamorim'); 
   
@@ -65,7 +66,7 @@
   define("DAA_RS", "");  // Razão social
   define("DAA_CNPJ", "");  // CNPJ da empresa
   define("DAA_IE", ""); // Inscrição estadual da empresa
-  define("DAA_PHONE_A", "+55 (11) 966-274-729"); // Telefone A
+  define("DAA_PHONE", "+55 (11) 966-274-729"); // Telefone A
   define("DAA_ADDR", "Av. Interlagos, 4944"); // Endereço da empresa
   define("DAA_CITY", "São Paulo"); // Cidade onde a empresa esta
   define("DAA_DISTRICT", "SP/Zona Sul"); // Distrito/Bairro da empresa
