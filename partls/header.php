@@ -29,9 +29,9 @@
     <link href="https://fonts.googleapis.com/css2?family=<?= DAA_FONT_NAME; ?>:wght@<?= DAA_FONT_WEIGHT; ?>&display=swap" rel="stylesheet"> <!-- Importing font from google -->
 
     <!-- All Styles -->
-    <!-- <link rel="stylesheet" href="_storage/css/components/normalize.css"> --> <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->
-    <link rel="stylesheet" href="_storage/css/components/reset.css"> <!-- Reset CSS -->
     <link rel="stylesheet" href="_storage/css/components/cssoo.css"> <!-- Defines CSS -->
+    <link rel="stylesheet" href="_storage/css/components/normalize.css"> <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->
+    <link rel="stylesheet" href="_storage/css/components/reset.css"> <!-- Reset CSS -->
 
     <link rel="stylesheet" href="_storage/css/components/boxicons.css"> <!-- Boxicons -> https://boxicons.com/ -->
     <link rel="stylesheet" href="_storage/css/components/fontawesome.css"> <!-- Fontawesome -> https://fontawesome.com/icons -->
@@ -56,33 +56,7 @@
 
     <header class="header container__flex">
 
-      <div class="content__flex">
-
-        <h1 class="header__logo fz">
-          <span>{SITE_TITLE}</span>
-          <img src="<?= DOMAIN; ?>/_storage/images/<?= DAA_LOGOTIPO; ?>" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" />
-        </h1>
-        <!-- Fim Logotipo -->
-
-        <nav class="header__menu">
-          <h2 class="fz">Navegação <?= DAA_NAME; ?></h2>
-          <ul>
-            <li>
-              <a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="{SITE_URL}">Home</a>
-            </li>
-            <li>
-              <a title="{PAGE_NAME} or {ARTICLE_NAME} | {SITE_TITLE}" href="#article__1">Quem Somos</a>
-            </li>
-            <li>
-              <a title="{PAGE_NAME} or {ARTICLE_NAME} | {SITE_TITLE}" href="#article__2">Fale Conosco</a>
-            </li>
-          </ul>
-          <!-- Fim Ul -->
-        </nav>
-        <!-- Fim Nav -->
-
-      </div>
-      <!-- Fim Content -->
+      
 
     </header>
     <!-- Fim Header > container -->

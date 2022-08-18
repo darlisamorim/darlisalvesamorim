@@ -1,11 +1,5 @@
     <footer class="footer container">
-      <div class="content">
 
-        <p>
-					CopyRight © <b><?= date('Y'); ?></b> - Todos os Direitos Reservados.				
-        </p>
-
-      </div>
     </footer>
     <!-- Fim Footer -->
 

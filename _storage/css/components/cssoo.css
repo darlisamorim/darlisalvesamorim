@@ -3,9 +3,13 @@
 
 	/* Colors Options
 		https://coolors.co/
-		#0E96E5;	#4fb788;	#b11e36;	#581a99;	#feb969;
-		#7e8035;	#2f0aab;	#292929;	#3e3e3e;	#565656;
-		#eeeeee;	#f3f3f3;	#FFFFFF;	#000000;
+		#D90429;
+		#D94555;
+		#17181C;	
+		#f3f3f3;
+		#EBEBEB;
+		#FFFFFF;
+		#000000;
 	*/
 
 	/* Color Base Default */
@@ -14,21 +18,21 @@
 
 	--white: hsl(0, 0%, 100%);
 	--white-hsla: hsla(0, 0%, 100%, .7); /* White Transparent */
+	--white-var: hsl(0, 0%, 92.16%);
 
-	--gray: hsl(0, 0%, 16%);
+	--gray: hsl(228, 9.8%, 10%);
 	--gray-hsla: hsla(0, 0%, 16%, .7);
-	--gray-var: hsl(0, 0%, 95%);
 
 
 	/* Color Main */
-	--color-first-hue: 350;
+	--color-first-hue: 349.58;
 	--color-first-hsla: 1;
-	--color-first: hsla(var(--color-first-hue), 71%, 41%, var(--color-first-hsla));
+	--color-first: hsla(var(--color-first-hue), 96.38%, 43.33%, var(--color-first-hsla));
 
 	/* Second Main */
-	--color-second-hue: 350;
+	--color-second-hue: 353.51;
 	--color-second-hsla: 1;
-	--color-second: hsla(var(--color-second-hue), 71%, 28%, var(--color-second-hsla));
+	--color-second: hsla(var(--color-second-hue), 66.07%, 56.08%, var(--color-second-hsla));
 
 
 	/* Color Gradients */
@@ -40,27 +44,23 @@
 	--mz: 0;
 	--pz: 0;
 	--dn: none;
-	--font-name: 'Open Sans', sans-serif;
+	--font-name: 'Roboto Mono', monospace, sans-serif;
 
 	/* Convert Size -> ( px ) to ( em ) {N / 16} = Result */
 	--font-mini: .525em;	/* 8.4px */
-	--font-normal: .875em;		/* 14px */
+	--font-normal: .875em;	/* 14px */
 	--font-smaller: 1em;	/* 16px */
 	--font-small: 1.375em;	/* 22px */
-	--font-big: 1.75em;		/* 28px */
-	--font-big-smaller: 2.25em;	/* 36px */
-	--font-big-small: 2.75em;		/* 44px */
 
 	/* Negrito */
 	--weight-mini: 400;
-	--weight-medium: 600;
-	--weight-bolder: 700;
-	--weight-bold: 900;
+	--weight-medium: 500;
+	--weight-bolder: 600;
+	--weight-bold: 700;
 
 	/* Contents */
 	--container-with: 100%;
 	--content-max-width: 1600px;
-	/* --content-max-width: 1366px; */
 	--content-width: 90%;
 
 	/* Border Radius */
@@ -71,7 +71,7 @@
 	--box-shadow: 0 0px 3px 0px var(--black-hsla);
 
 	/* Text Shadow */
-  --text-shadow: 1.4px 2px 0px var(--black);
+  	--text-shadow: 1.4px 2px 0px var(--black);
 
 	/* Transition */
 	--transition: all 280ms ease-in-out;
@@ -82,24 +82,6 @@
 	/* Scale */
 	--scale: scale(1.6);
 }
-
-html {
-	scroll-behavior: smooth;
-}
-
-body {
-	font-family: var(--font-name);
-	font-size: var(--font-normal);
-	background-color: var(--gray-var);
-}
-
-h1, h2, h3, h4 {
-	color: var(--black);
-	font-weight: var(--weight-medium);
-	margin: var(--mz);
-}
-h1 { font-size: var(--font-big-smaller); }
-h2 { font-size: var(--font-big); }
 
 section {
 	padding: 60px 0;
