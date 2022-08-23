@@ -3,8 +3,13 @@
 
 	/* Colors Options
 		https://coolors.co/
+
 		#D90429;
 		#D94555;
+
+		#D31027;
+		#EA385D;
+		
 		#17181C;	
 		#f3f3f3;
 		#EBEBEB;
@@ -36,8 +41,9 @@
 
 
 	/* Color Gradients */
-	/* --$gradient-red: linear-gradient(90deg, rgba(217, 0, 48, 1) 5%, rgba(171, 50, 76, 1) 89%); */
-	/* --$gradient-blue: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95)) */
+	--gradient-red: linear-gradient(90deg, rgba(217, 0, 48, .95) 5%, rgba(171, 50, 76, .95) 89%);
+	--gradient-blue: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+
 
 	/* Start */
 	--fz: 0em !important;

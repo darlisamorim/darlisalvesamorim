@@ -57,55 +57,69 @@ require 'source/controller.php';
 
 <body>
 
-  <header class="header container__flex">
-    <h1 class="fz"><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></h1>
+  <header class="header container">
+    <div class="content">
+      <h1 class="fz"><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></h1>
 
-    <nav class="menu">
-      <h3 class="fz">Navegação | <?= DAA_NAME; ?></h3>
-      <ul>
-        <li><a title="Meu nome é | <?= DAA_NAME; ?>" href="">Olá</a></li>
-        <li><a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="">Sobre Mim</a></li>
-        <li><a title="Portfólios | <?= DAA_NAME; ?>" href="">Portfólios</a></li>
-        <li><a title="Fale comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
-      </ul>
-    </nav>
-    <!-- Fim Menu -->
-
-    <div class="bio">
-      <figure class="avatar">
-        <img width="200" src="<?= DOMAIN; ?>/_storage/images/avatar.jpg" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>">
-      </figure>
-
-      <article class="infos">
-        <header class="article__header">
-          <h1><span class="fz">Informações | </span><?= DAA_NAME; ?></h1>
-          <p>Developer & Design.</p>
-        </header>
-        <dl>
-          <dt>Idade:</dt>
-          <dd><?= DAA_AGE; ?></dd>
-          <dt class="">Telefone:</dt>
-          <dd class="fz"><?= DAA_PHONE; ?></dd>
-          <dt>E-mail:</dt>
-          <dd><?= DAA_EMAIL; ?></dd>
-          <dt>Endereço:</dt>
-          <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
-        </dl>
+      <nav class="header__menu">
+        <h3 class="fz">Navegação | <?= DAA_NAME; ?></h3>
         <ul>
-          <li><a title="Links | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>"><i class='bx bxs-share-alt'></i></a></li>
-          <li><a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>"><i class='bx bxl-linkedin-square'></i></a></li>
-          <li><a title="GitHub | <?= DAA_NAME; ?>" href=""><i class='bx bxl-github' ></i></a></li>
-          <li><a title="CodePen | <?= DAA_NAME; ?>" href=""><i class='bx bxl-codepen' ></i></a></li>
-          <li><a title="Dev.To | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dev-to' ></i></a></li>
-          <li><a title="Medium | <?= DAA_NAME; ?>" href=""><i class='bx bxl-medium-square' ></i></a></li>
-          <li><a title="Dribbble | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dribbble' ></i></a></li>
-          <li><a title="Behance | <?= DAA_NAME; ?>" href=""><i class='bx bxl-behance' ></i></a></li>
-          <li><a title="Deviantart | <?= DAA_NAME; ?>" href=""><i class='bx bxl-deviantart' ></i></a></li>
-          <li><a title="Pinterest | <?= DAA_NAME; ?>" href=""><i class='bx bxl-pinterest' ></i></a></li>
+          <li><a title="Meu nome é | <?= DAA_NAME; ?>" href="">Olá</a></li>
+          <li><a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="">Sobre Mim</a></li>
+          <li><a title="Portfólios | <?= DAA_NAME; ?>" href="">Portfólios</a></li>
+          <li><a title="Fale comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
         </ul>
-      </article>
-    </div>
+        <ul>
+          <li>Mode</li>
+          <li>
+            <i class='bx bxs-sun' ></i>
+          </li>
+          <li>
+            <i class='bx bxs-moon' ></i>
+          </li>
+          <li>
+            <i class='bx bx-menu' ></i>
+            <i class='bx bx-menu-alt-right' ></i> 
+          </li>
+        </ul>
+      </nav>
+      <!-- Fim Menu -->
 
+      <div class="header__bio">
+        <figure class="avatar">
+          <img src="<?= DOMAIN; ?>/_storage/images/avatar.jpg" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>">
+        </figure>
+
+        <article class="infos">
+          <header class="header__article">
+            <h1><span class="fz">Informações | </span><?= DAA_NAME; ?></h1>
+            <p>Developer & Design.</p>
+          </header>
+          <dl>
+            <dt>Idade:</dt>
+            <dd><?= DAA_AGE; ?></dd>
+            <dt class="fz">Telefone:</dt>
+            <dd class="fz"><?= DAA_PHONE; ?></dd>
+            <dt>E-mail:</dt>
+            <dd><?= DAA_EMAIL; ?></dd>
+            <dt>Endereço:</dt>
+            <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
+          </dl>
+          <ul>
+            <li><a title="Links | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>"><i class='bx bxs-share-alt'></i></a></li>
+            <li><a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>"><i class='bx bxl-linkedin-square'></i></a></li>
+            <li><a title="GitHub | <?= DAA_NAME; ?>" href=""><i class='bx bxl-github' ></i></a></li>
+            <li><a title="CodePen | <?= DAA_NAME; ?>" href=""><i class='bx bxl-codepen' ></i></a></li>
+            <li><a title="Dev.To | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dev-to' ></i></a></li>
+            <li><a title="Medium | <?= DAA_NAME; ?>" href=""><i class='bx bxl-medium-square' ></i></a></li>
+            <li><a title="Dribbble | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dribbble' ></i></a></li>
+            <li><a title="Behance | <?= DAA_NAME; ?>" href=""><i class='bx bxl-behance' ></i></a></li>
+            <li><a title="Deviantart | <?= DAA_NAME; ?>" href=""><i class='bx bxl-deviantart' ></i></a></li>
+            <li><a title="Pinterest | <?= DAA_NAME; ?>" href=""><i class='bx bxl-pinterest' ></i></a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
 
   </header>
   <!-- Fim Header > container -->
