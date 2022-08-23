@@ -106,16 +106,16 @@ require 'source/controller.php';
             <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
           </dl>
           <ul>
-            <li><a title="Links | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>"><i class='bx bxs-share-alt'></i></a></li>
-            <li><a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>"><i class='bx bxl-linkedin-square'></i></a></li>
-            <li><a title="GitHub | <?= DAA_NAME; ?>" href=""><i class='bx bxl-github' ></i></a></li>
-            <li><a title="CodePen | <?= DAA_NAME; ?>" href=""><i class='bx bxl-codepen' ></i></a></li>
-            <li><a title="Dev.To | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dev-to' ></i></a></li>
-            <li><a title="Medium | <?= DAA_NAME; ?>" href=""><i class='bx bxl-medium-square' ></i></a></li>
-            <li><a title="Dribbble | <?= DAA_NAME; ?>" href=""><i class='bx bxl-dribbble' ></i></a></li>
-            <li><a title="Behance | <?= DAA_NAME; ?>" href=""><i class='bx bxl-behance' ></i></a></li>
-            <li><a title="Deviantart | <?= DAA_NAME; ?>" href=""><i class='bx bxl-deviantart' ></i></a></li>
-            <li><a title="Pinterest | <?= DAA_NAME; ?>" href=""><i class='bx bxl-pinterest' ></i></a></li>
+            <li><a title="Links | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>" target="_blank"><i class='bx bxs-share-alt'></i></a></li>
+            <li><a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>" target="_blank"><i class='bx bxl-linkedin-square'></i></a></li>
+            <li><a title="GitHub | <?= DAA_NAME; ?>" href="https://www.github.com/<?= DAA_GITHUB; ?>" target="_blank"><i class='bx bxl-github' ></i></a></li>
+            <li><a title="CodePen | <?= DAA_NAME; ?>" href="https://codepen.io/<?= DAA_CODEPEN; ?>" target="_blank"><i class='bx bxl-codepen' ></i></a></li>
+            <li><a title="Dev.To | <?= DAA_NAME; ?>" href="https://dev.to/<?= DAA_DEVTO; ?>" target="_blank"><i class='bx bxl-dev-to' ></i></a></li>
+            <li><a title="Medium | <?= DAA_NAME; ?>" href="https://medium.com/<?= DAA_MEDIUM; ?>" target="_blank"><i class='bx bxl-medium-square' ></i></a></li>
+            <li><a title="Dribbble | <?= DAA_NAME; ?>" href="https://dribbble.com/<?= DAA_DRIBBBLE; ?>" target="_blank"><i class='bx bxl-dribbble' ></i></a></li>
+            <li><a title="Behance | <?= DAA_NAME; ?>" href="https://www.behance.net/<?= DAA_BEHANCE; ?>" target="_blank"><i class='bx bxl-behance' ></i></a></li>
+            <li><a title="Deviantart | <?= DAA_NAME; ?>" href="https://www.deviantart.com/<?= DAA_DEVIANTART; ?>" target="_blank"><i class='bx bxl-deviantart' ></i></a></li>
+            <li><a title="Pinterest | <?= DAA_NAME; ?>" href="https://pinterest.com/<?= DAA_PINTEREST; ?>" target="_blank"><i class='bx bxl-pinterest' ></i></a></li>
           </ul>
         </article>
       </div>

@@ -23,7 +23,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 0;
+  margin: 40px 0 10px 0;
 }
 .header__menu h3 {
   position: absolute;
@@ -78,12 +78,20 @@
 .header__bio .infos .header__article h1 {
   margin-bottom: 20px;
 }
+
+.header__bio .infos .header__article p {
+  font-weight: var(--weight-bold);
+}
 .header__bio .infos dl  {
   margin-bottom: 50px;
+  line-height: 2;
 }
 .header__bio .infos dl dt {
   float: left;
   margin-right: 20px;
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  opacity: .5;
 }
 .header__bio .infos dl dd {}
 .header__bio .infos ul {
