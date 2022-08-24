@@ -1,6 +1,9 @@
 # My Defaults
 _files
 _storage/images/psd
+.env
+.env.test
+.env.production
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,nette,composer,phpstorm,visualstudiocode,dreamweaver,sublimetext
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,nette,composer,phpstorm,visualstudiocode,dreamweaver,sublimetext
@@ -92,6 +95,7 @@ Temporary Items
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/
 
 # AWS User-specific
 .idea/**/aws.xml
