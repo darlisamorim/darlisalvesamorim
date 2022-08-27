@@ -6,10 +6,22 @@
             <h1 class="fz">Biografia | <?= DAA_NAME; ?></h1>
 
             <article class="article__bio">
-                <h1>Bom te ver aqui</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reiciendis itaque veritatis deserunt
-                    voluptas temporibus aliquid, placeat, ex vero omnis vel possimus voluptatem, debitis tempora eos.
-                    Voluptates consequatur deserunt quis!</p>
+                <h2>Bom te ver aqui</h2>
+                <p>
+                    Estou na área de TI a um tempo considerável trabalhando como desenvolvedor e tenho muitas competências que provêm dos cursos que fiz online e/ou presenciais. Tenho um grande interesse em continuar me especializando cada vez mais em TI, atuando como desenvolvedor Front e Back End.
+                </p>
+                <p>
+                    Trabalho como autônomo desenvolvendo websites e páginas para a internet do absoluto zero e quando necessário uso o CMS WordPress, toda via tenho alguns conhecimentos sobre outros CMS como Magento e Joomla.
+                </p>
+                <p>
+                    Desenvolvo projetos com as melhores tecnologias disponíveis do mercado como HTML5 e CSS3 para estruturar semanticamente e visualmente os projetos, Design Responsivo para adaptar o site a todas as telas, jQuery e/ou JavaScript para melhorar a experiência do usuário ao navegar no site/página e por fim utilizo pouco de PHP e Composer com ou sem WordPress para fazer o sistema de gerenciamento de conteúdo do projeto.
+                </p>
+                <p>
+                    E para maximizar o desempenho de um projeto onde tenho que trabalhar em equipe acho muito interessante e produtivo usar o versionamento de projeto com o Git utilizando o BitBucket, GitHub ou outro armazenador online.
+                </p>
+                <p>
+                    Tenho outros interesses distintos em algumas outras áreas como Financeira e Construção Civil e gostaria de obter algumas especializações nessas profissões no futuro sem é claro deixar de lado minha área de atuação principal.
+                </p>
                 <button><i class='bx bxs-download'></i> Download CV</button>
             </article>
         </section>

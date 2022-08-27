@@ -64,8 +64,8 @@
 .header__bio {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
+  /*align-items: center;*/
+  /*justify-content: space-between;*/
   position: relative;
   top: 25px;
   color: var(--white);
@@ -75,7 +75,14 @@
   padding-right: 40px;
 }
 .header__bio .avatar img {
-  /* max-width: 380px; */
+   max-width: 380px;
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  border-radius: var(--radius);
+
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 .header__bio .infos {
   flex-basis: 50%;
@@ -86,22 +93,31 @@
   margin-bottom: 20px;
   color: var(--white);
 }
+.header__bio .infos .header__article h1 {
+  font-size: var(--font-small);
+}
 
 .header__bio .infos .header__article p {
   font-weight: var(--weight-bold);
+  font-size: var(--font-smaller);
 }
 .header__bio .infos dl  {
   margin-bottom: 50px;
   line-height: 2;
+  font-size: var(--font-smaller);
 }
 .header__bio .infos dl dt {
   float: left;
   margin-right: 20px;
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-bolder);
   text-transform: uppercase;
   opacity: .5;
 }
 .header__bio .infos dl dd {}
+.header__bio .infos dl dd a {
+  color: var(--white);
+  text-decoration: none;
+}
 .header__bio .infos ul {
   display: flex;
   flex-wrap: wrap;

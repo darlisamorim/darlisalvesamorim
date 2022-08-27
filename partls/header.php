@@ -74,6 +74,7 @@ require 'source/controller.php';
                 <li><a title="Meu nome é | <?= DAA_NAME; ?>" href="">Olá</a></li>
                 <li><a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="">Sobre Mim</a></li>
                 <li><a title="Portfólios | <?= DAA_NAME; ?>" href="">Portfólios</a></li>
+                <li><a title="Open Source | <?= DAA_NAME; ?>" href="">Open Source</a></li>
                 <li><a title="Fale comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
             </ul>
             <ul>
@@ -109,7 +110,7 @@ require 'source/controller.php';
                     <dt class="fz">Telefone:</dt>
                     <dd class="fz"><?= DAA_PHONE; ?></dd>
                     <dt>E-mail:</dt>
-                    <dd><?= DAA_EMAIL; ?></dd>
+                    <dd><a title="E-mail | <?= DAA_NAME; ?>" href="mailto:<?= DAA_EMAIL; ?>"><?= DAA_EMAIL; ?></a></dd>
                     <dt>Endereço:</dt>
                     <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
                 </dl>

@@ -108,13 +108,21 @@ h1 {
   margin: 0.67em 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: var(--black);
 	font-weight: var(--weight-medium);
 	margin: var(--mz);
 }
 h1 { font-size: var(--font-small); }
 h2 { font-size: var(--font-smaller); }
+h2:after {
+  content: "_";
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
 
+p {
+  margin: 1em 0;
+}
 /* Grouping content
    ========================================================================== */
 

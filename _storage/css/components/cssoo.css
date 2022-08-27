@@ -42,7 +42,8 @@
 
 	/* Color Gradients */
 	--gradient-red: linear-gradient(90deg, rgba(217, 0, 48, .95) 5%, rgba(171, 50, 76, .95) 89%);
-	--gradient-blue: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+	--gradient-blue: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+	--gradient-black: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
 
 
 	/* Start */
@@ -55,7 +56,7 @@
 	/* Convert Size -> ( px ) to ( em ) {N / 16} = Result */
 	--font-mini: .525em;	/* 8.4px */
 	--font-normal: .875em;	/* 14px */
-	--font-smaller: 1.375em;	/* 16px */
+	--font-smaller: 1.175em;	/* 16px */
 	--font-small: 2.375em;	/* 22px */
 
 	/* Negrito */
@@ -74,7 +75,7 @@
 	--radius-50: 50%;
 
 	/* Box Shadow */
-	--box-shadow: 0 0px 3px 0px var(--black-hsla);
+	--box-shadow: 1px 1px 6px 0px var(--black-hsla);
 
 	/* Text Shadow */
   	--text-shadow: 1.4px 2px 0px var(--black);
