@@ -29,6 +29,7 @@
   define('DAA_NAME', 'Darlis Alves Amorim_'); // Name Website
   define('DAA_SUBNAME', 'Software Engineer end Full Stack Developer Freelancer Front-end & Back-end of São Paulo/SP'); // Subname WebSite
   define('DAA_DESCRIPTION', 'Software Engineer end Full Stack Developer of São Paulo/SP'); // Description Website
+  define('DAA_OFFICE', 'Developer & Design'); // Subname WebSite
 
   /*
    * Settings Google Fonts

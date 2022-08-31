@@ -65,81 +65,75 @@ require 'source/controller.php';
 <body>
 
 <header class="header container">
-    <div class="content">
-        <h1 class="fz"><?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?></h1>
+    <div class="content__flex">
+        <h1 class="header__logotipo">
+            <strong>Darlis</strong> Alves Amorim<b>_</b>
+        </h1>
 
         <nav class="header__menu">
-            <h3 class="fz">Navegação | <?= DAA_NAME; ?></h3>
+            <h3 class="fz">
+                Navegação | <?= DAA_NAME; ?>
+            </h3>
             <ul>
-                <li><a title="Meu nome é | <?= DAA_NAME; ?>" href="">Olá</a></li>
-                <li><a title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" href="">Sobre Mim</a></li>
                 <li><a title="Portfólios | <?= DAA_NAME; ?>" href="">Portfólios</a></li>
                 <li><a title="Open Source | <?= DAA_NAME; ?>" href="">Open Source</a></li>
-                <li><a title="Fale comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
-            </ul>
-            <ul>
-                <li>Mode</li>
-                <li>
-                    <i class='bx bxs-sun'></i>
-                </li>
-                <li>
-                    <i class='bx bxs-moon'></i>
-                </li>
-                <li>
-                    <i class='bx bx-menu'></i>
-                    <i class='bx bx-menu-alt-right'></i>
-                </li>
+                <li><a title="Notas | <?= DAA_NAME; ?>" href="">Notas</a></li>
+                <li><a title="Fale Comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
             </ul>
         </nav>
-        <!-- Fim Menu -->
+        <ul class="header__tools">
+            <li class="dn">
+                <i class='bx bxs-sun'></i>
+            </li>
+            <li class="dn">
+                <i class='bx bxs-moon'></i>
+            </li>
+            <li>
+                <a title="Links Sociais | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>" target="_blank">
+                    <i class='bx bxs-share-alt'></i>
+                    Social
+                </a>
+            </li>
+            <li>
+                <a title="GitHub | <?= DAA_NAME; ?>" href="https://www.github.com/<?= DAA_GITHUB; ?>" target="_blank">
+                    <i class='bx bxl-github'></i>
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                    Linkedin
+                </a>
+            </li>
+            <li class="dn">
+                <i class='bx bx-menu'></i>
+                <i class='bx bx-menu-alt-right'></i>
+            </li>
+        </ul>
 
-        <div class="header__bio">
-            <figure class="avatar">
-                <img src="<?= DOMAIN; ?>/_storage/images/avatar.jpg" title="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>"
-                     alt="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>">
-            </figure>
-
-            <article class="infos">
-                <header class="header__article">
-                    <h1><span class="fz">Informações | </span><?= DAA_NAME; ?></h1>
-                    <p>Developer & Design.</p>
-                </header>
-                <dl>
-                    <dt>Idade:</dt>
-                    <dd><?= DAA_AGE; ?></dd>
-                    <dt class="fz">Telefone:</dt>
-                    <dd class="fz"><?= DAA_PHONE; ?></dd>
-                    <dt>E-mail:</dt>
-                    <dd><a title="E-mail | <?= DAA_NAME; ?>" href="mailto:<?= DAA_EMAIL; ?>"><?= DAA_EMAIL; ?></a></dd>
-                    <dt>Endereço:</dt>
-                    <dd><?= DAA_COUNTRY; ?>, <?= DAA_CITY; ?>/<?= DAA_UF; ?> - <?= DAA_ADDR; ?></dd>
-                </dl>
-                <ul>
-                    <li><a title="Links | <?= DAA_NAME; ?>" href="<?= DAA_LINKS; ?>" target="_blank"><i
-                                    class='bx bxs-share-alt'></i></a></li>
-                    <li><a title="Linkedin | <?= DAA_NAME; ?>" href="<?= DAA_LINKEDIN; ?>" target="_blank"><i
-                                    class='bx bxl-linkedin-square'></i></a></li>
-                    <li><a title="GitHub | <?= DAA_NAME; ?>" href="https://www.github.com/<?= DAA_GITHUB; ?>"
-                           target="_blank"><i class='bx bxl-github'></i></a></li>
-                    <li><a title="CodePen | <?= DAA_NAME; ?>" href="https://codepen.io/<?= DAA_CODEPEN; ?>"
-                           target="_blank"><i class='bx bxl-codepen'></i></a></li>
-                    <li><a title="Dev.To | <?= DAA_NAME; ?>" href="https://dev.to/<?= DAA_DEVTO; ?>" target="_blank"><i
-                                    class='bx bxl-dev-to'></i></a></li>
-                    <li><a title="Medium | <?= DAA_NAME; ?>" href="https://medium.com/<?= DAA_MEDIUM; ?>"
-                           target="_blank"><i class='bx bxl-medium-square'></i></a></li>
-                    <li><a title="Dribbble | <?= DAA_NAME; ?>" href="https://dribbble.com/<?= DAA_DRIBBBLE; ?>"
-                           target="_blank"><i class='bx bxl-dribbble'></i></a></li>
-                    <li><a title="Behance | <?= DAA_NAME; ?>" href="https://www.behance.net/<?= DAA_BEHANCE; ?>"
-                           target="_blank"><i class='bx bxl-behance'></i></a></li>
-                    <li><a title="Deviantart | <?= DAA_NAME; ?>"
-                           href="https://www.deviantart.com/<?= DAA_DEVIANTART; ?>" target="_blank"><i
-                                    class='bx bxl-deviantart'></i></a></li>
-                    <li><a title="Pinterest | <?= DAA_NAME; ?>" href="https://pinterest.com/<?= DAA_PINTEREST; ?>"
-                           target="_blank"><i class='bx bxl-pinterest'></i></a></li>
-                </ul>
-            </article>
-        </div>
     </div>
+
+    <div class="content__flex">
+        <article class="header__article">
+            <header class="header__article__group">
+                <h1>
+                    <?= DAA_OFFICE; ?>
+                </h1>
+                <h2>
+                    <?= DAA_SUBNAME; ?>
+                </h2>
+            </header>
+            <p></p>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse explicabo laboriosam nostrum obcaecati
+            recusandae?
+        </article>
+        <figure class="header__figure">
+            <img width="440" src="<?= DOMAIN; ?>/_storage/images/developer.svg" title="<?= DAA_NAME; ?>" alt="<?= DAA_DESCRIPTION; ?>">
+        </figure>
+    </div>
+
 
 </header>
 <!-- Fim Header > container -->
