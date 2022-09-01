@@ -1,7 +1,7 @@
 /* Header */
 .header {
-    /*height: 90vh;*/
     background-color: var(--gray);
+    border-bottom: 1px solid var(--black);
 }
 
 .header .content__flex {

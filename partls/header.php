@@ -32,6 +32,7 @@ require 'source/controller.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=<?= DAA_FONT_NAME; ?>:wght@<?= DAA_FONT_WEIGHT; ?>&display=swap"
           rel="stylesheet"> <!-- Importing font from google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!-- All Styles -->
     <link rel="stylesheet" href="_storage/css/components/cssoo.css"> <!-- Defines CSS -->

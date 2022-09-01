@@ -36,6 +36,7 @@
 	--color-first-hsla: 1;
 	--color-first: hsla(var(--color-first-hue), 96.38%, 43.33%, var(--color-first-hsla));
 
+
 	/* Second Main */
 	--color-second-hue: 353.51;
 	--color-second-hsla: 1;
@@ -60,6 +61,7 @@
 	--font-normal: .875em;	/* 14px */
 	--font-smaller: 1.175em;	/* 16px */
 	--font-small: 2.175em;	/* 34px */
+	--font-icon: 3.175em;	/* 34px */
 
 	/* Negrito */
 	--weight-mini: 400;

@@ -2,25 +2,51 @@
 
     <main class="main container">
 
-        <section class="bio content">
+        <section class="bio">
             <h1 class="fz">Biografia | <?= DAA_NAME; ?></h1>
-
-            u
-            <article class="article__bio">
-                <h2>Bom te ver aqui</h2>
-                <p>
-                    Estou voltando a área de TI como desenvolvedor e tenho algumas competências que provêm dos cursos que fiz no passado online e/ou presenciais. Estou revendo e estudando novamente cursos e competências que tenho a fim de continuar me especializando cada vez mais em TI, atuando como desenvolvedor também estou disponível para viajar a trabalho.
-                </p>
-                <p>
-                    Trabalho como autônomo desenvolvendo projetos como websites e páginas para a internet usando quando necessário o CMS WordPress & WordPress (WooCommerce), toda via também já trabalhei com alguns outros CMS como Magento e Joomla.
-                </p>
-                <p>
-                    Uso as seguintes tecnologias HTML5 e CSS3 para estruturar semanticamente e visualmente os projetos, Design Responsivo para adaptar o site a todas as telas, jQuery e/ou JavaScript para melhorar a experiência do usuário ao navegar no site/página e utilizo um pouco de PHP para melhorar a estrutura do projeto e se necessário Packs com Composer.
-                </p>
-                <p>
-                    Para trabalhar em equipe normalmente utilizo o Git para o versionamento de projetos nos armazenadores mais comuns GitHub e BitBucket
-                </p>
-            </article>
+            <div class="content__flex">
+                <div class="controls__bio">
+                    <?php for ($i = 1; $i <= 3; $i++): ?>
+                        <div class="controls__bio__content">
+                            <div class="controls__bio__left">
+                                <mark>Design</mark>
+                                <p>Create Design Figma</p>
+                                <button>Projetos</button>
+                            </div>
+                            <div class="controls__bio__right">
+                                <span class="material-symbols-outlined">
+                                    design_services
+                                </span>
+                            </div>
+                        </div>
+                    <?php endfor; ?>
+                </div>
+                <article class="article__bio">
+                    <span>#Design</span>
+                    <h2>Olá meu nome é <?= DAA_NAME; ?></h2>
+                    <p>
+                        Estou voltando a área de TI como desenvolvedor e tenho algumas competências que provêm dos cursos
+                        que fiz no passado online e/ou presenciais. Estou revendo e estudando novamente cursos e
+                        competências que tenho a fim de continuar me especializando cada vez mais em TI, atuando como
+                        desenvolvedor também estou disponível para viajar a trabalho.
+                    </p>
+                    <p>
+                        Trabalho como autônomo desenvolvendo projetos como websites e páginas para a internet usando quando
+                        necessário o CMS WordPress & WordPress (WooCommerce), toda via também já trabalhei com alguns outros
+                        CMS como Magento e Joomla.
+                    </p>
+                    <p>
+                        Uso as seguintes tecnologias HTML5 e CSS3 para estruturar semanticamente e visualmente os projetos,
+                        Design Responsivo para adaptar o site a todas as telas, jQuery e/ou JavaScript para melhorar a
+                        experiência do usuário ao navegar no site/página e utilizo um pouco de PHP para melhorar a estrutura
+                        do projeto e se necessário Packs com Composer.
+                    </p>
+                    <p>
+                        Para trabalhar em equipe normalmente utilizo o Git para o versionamento de projetos nos
+                        armazenadores mais comuns GitHub e BitBucket
+                    </p>
+                </article>
+            </div>
         </section>
         <!-- Fim Section.bio -->
 
