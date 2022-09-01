@@ -159,6 +159,46 @@
         </section>
         <!-- Fim Section.bio -->
 
+        <section class="portfolios container">
+            <div class="content">
+                <h1>Meus Portfolios & Projetos Open Source</h1>
+                <ul>
+                    <li><a title="" href="">Todos</a></li>
+                    <li><a title="" href="">Website</a></li>
+                    <li><a title="" href="">Aplicativos</a></li>
+                    <li><a title="" href="">CMS</a></li>
+                    <li><a title="" href="">Design</a></li>
+                </ul>
+            </div>
+            <!-- Fim Div.content -->
+
+            <div class="content__flex">
+                <article class="article__portfolios">
+                    <figure>
+                        <img width="400" src="<?= DOMAIN; ?>/_storage/images/default.svg" title="" alt="">
+                        <figcaption>
+                            <p><i class='bx bxs-folder-open'></i> Open Source</p>
+                        </figcaption>
+                    </figure>
+                    <div class="portfolios__content">
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus
+                            perferendis nihil, nulla recusandae voluptas, ea nemo quidem sit facilis. Pariatur, aliquid
+                            nemo. Suscipit, iusto ex. Nobis, molestias dicta!</p>
+
+                        <div>
+                            <p>Lorem, ipsum.</p>
+                            <span class="tags">HTML5</span>
+                        </div>
+                    </div>
+                    <a title="" href="">www.darlisalvesamorim.com</a>
+                </article>
+            </div>
+            <!-- Fim Div.content -->
+
+        </section>
+        <!-- Fim Section.portfolios -->
+
         <section class="resumo container">
             <h1 class="fz">Resumo</h1>
 
@@ -267,45 +307,7 @@
         </section>
         <!-- Fim Section.resumo -->
 
-        <section class="portfolios container">
-            <div class="content">
-                <h1>Meus Portfolios & Projetos Open Source</h1>
-                <ul>
-                    <li><a title="" href="">Todos</a></li>
-                    <li><a title="" href="">Website</a></li>
-                    <li><a title="" href="">Aplicativos</a></li>
-                    <li><a title="" href="">CMS</a></li>
-                    <li><a title="" href="">Design</a></li>
-                </ul>
-            </div>
-            <!-- Fim Div.content -->
 
-            <div class="content__flex">
-                <article class="article__portfolios">
-                    <figure>
-                        <img width="400" src="<?= DOMAIN; ?>/_storage/images/default.svg" title="" alt="">
-                        <figcaption>
-                            <p><i class='bx bxs-folder-open'></i> Open Source</p>
-                        </figcaption>
-                    </figure>
-                    <div class="portfolios__content">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus
-                            perferendis nihil, nulla recusandae voluptas, ea nemo quidem sit facilis. Pariatur, aliquid
-                            nemo. Suscipit, iusto ex. Nobis, molestias dicta!</p>
-
-                        <div>
-                            <p>Lorem, ipsum.</p>
-                            <span class="tags">HTML5</span>
-                        </div>
-                    </div>
-                    <a title="" href="">www.darlisalvesamorim.com</a>
-                </article>
-            </div>
-            <!-- Fim Div.content -->
-
-        </section>
-        <!-- Fim Section.portfolios -->
 
     </main>
     <!-- Fim Main -->

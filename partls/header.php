@@ -68,7 +68,7 @@ require 'source/controller.php';
 <header class="header container">
     <div class="content__flex">
         <h1 class="header__logotipo">
-            <strong>Darlis</strong> Alves Amorim<b>_</b>
+            <strong>Darlis</strong> Alves Amorim<b>_</b> <span class="dn">| <?= DAA_DESCRIPTION; ?></span>
         </h1>
 
         <nav class="header__menu">

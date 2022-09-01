@@ -5,6 +5,7 @@
 /* section.bio */
 .bio {
     background-color: var(--gray-var);
+    border-bottom: 1px solid var(--black);
 }
 
 .bio .content__flex {
@@ -152,4 +153,10 @@
 .bio__language .bx, .bio__language .fa {
     font-size: 3em;
     color: var(--white);
+}
+
+
+/* section.portfolios */
+.portfolios {
+    background-color: var(--gray);
 }
