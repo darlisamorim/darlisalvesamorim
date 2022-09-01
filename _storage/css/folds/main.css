@@ -109,7 +109,7 @@
 .bio__language li {
     position: relative;
     cursor: pointer;
-    margin: 2% 1%;
+    margin: 1%;
     display: flex;
     flex-basis: 10%;
     flex-direction: column;
