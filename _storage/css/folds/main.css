@@ -7,6 +7,13 @@
     background-color: var(--gray-var);
 }
 
+.bio .content__flex {
+    margin-bottom: 40px;
+}
+.bio .content__flex:last-child {
+    margin-bottom: 0;
+}
+
 .controls__bio {
     flex-basis: 42%;
 }
@@ -23,7 +30,7 @@
 }
 
 .controls__bio__content {
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +41,9 @@
     box-shadow: var(--box-shadow);
     color: var(--white);
     padding: 42px;
+}
+.controls__bio__content:last-child {
+    margin-bottom: 0;
 }
 
 .controls__bio__content mark {
@@ -65,6 +75,17 @@
 .article__bio {
     color: var(--white);
 }
+.article__bio span {
+    position: relative;
+    color: var(--color-first);
+    font-weight: var(--weight-bold);
+    font-size: var(--font-smaller);
+}
+.article__bio span:after {
+    content: "_";
+    position: absolute;
+    right: -12px;
+}
 .article__bio h2 {
     margin: 40px 0;
     font-style: italic;
@@ -72,4 +93,63 @@
 .article__bio p {
     /*font-size: var(--font-smaller);*/
     line-height: 1.8;
+    margin-bottom: 30px;
+}
+.article__bio p:last-child {
+    margin-bottom: 0;
+}
+
+.bio__language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bio__language li {
+    position: relative;
+    cursor: pointer;
+    margin: 2% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bio__language li:first-child {
+    cursor: text;
+    flex-basis: 100%;
+    position: relative;
+    color: var(--color-first);
+    font-weight: var(--weight-bold);
+    font-size: var(--font-small);
+}
+.bio__language li span {
+    text-transform: uppercase;
+    position: relative;
+    bottom: 15px;
+    padding: 4px 12px;
+    background-color: var(--color-first);
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+}
+.bio__language li span:before {
+    content: "";
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    right: 0;
+    border-top: 10px solid var(--color-first);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.bio__language li:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+.bio__language .bx, .bio__language .fa {
+    font-size: 3em;
+    color: var(--white);
 }

@@ -25,20 +25,25 @@
                     <span>#Design</span>
                     <h2>Olá meu nome é <?= DAA_NAME; ?></h2>
                     <p>
-                        Estou voltando a área de TI como desenvolvedor e tenho algumas competências que provêm dos cursos
+                        Estou voltando a área de TI como desenvolvedor e tenho algumas competências que provêm dos
+                        cursos
                         que fiz no passado online e/ou presenciais. Estou revendo e estudando novamente cursos e
                         competências que tenho a fim de continuar me especializando cada vez mais em TI, atuando como
                         desenvolvedor também estou disponível para viajar a trabalho.
                     </p>
                     <p>
-                        Trabalho como autônomo desenvolvendo projetos como websites e páginas para a internet usando quando
-                        necessário o CMS WordPress & WordPress (WooCommerce), toda via também já trabalhei com alguns outros
+                        Trabalho como autônomo desenvolvendo projetos como websites e páginas para a internet usando
+                        quando
+                        necessário o CMS WordPress & WordPress (WooCommerce), toda via também já trabalhei com alguns
+                        outros
                         CMS como Magento e Joomla.
                     </p>
                     <p>
-                        Uso as seguintes tecnologias HTML5 e CSS3 para estruturar semanticamente e visualmente os projetos,
+                        Uso as seguintes tecnologias HTML5 e CSS3 para estruturar semanticamente e visualmente os
+                        projetos,
                         Design Responsivo para adaptar o site a todas as telas, jQuery e/ou JavaScript para melhorar a
-                        experiência do usuário ao navegar no site/página e utilizo um pouco de PHP para melhorar a estrutura
+                        experiência do usuário ao navegar no site/página e utilizo um pouco de PHP para melhorar a
+                        estrutura
                         do projeto e se necessário Packs com Composer.
                     </p>
                     <p>
@@ -46,6 +51,110 @@
                         armazenadores mais comuns GitHub e BitBucket
                     </p>
                 </article>
+            </div>
+
+            <div class="content__flex">
+                <ul class="bio__language">
+                    <li class="bio__language__full">
+                        #Tecnologias_
+                    </li>
+                    <li>
+                        <span>html5</span>
+                        <i class='bx bxl-html5'></i>
+                    </li>
+                    <li>
+                        <span>css3</span>
+                        <i class='bx bxl-css3' ></i>
+                    </li>
+                    <li>
+                        <span>sass</span>
+                        <i class='bx bxl-sass' ></i>
+                    </li>
+                    <li>
+                        <span>tailwind</span>
+                        <i class='bx bxl-tailwind-css' ></i>
+                    </li>
+                    <li>
+                        <span>bootstrap</span>
+                        <i class='bx bxl-bootstrap' ></i>
+                    </li>
+                    <li>
+                        <span>javascript</span>
+                        <i class='bx bxl-javascript' ></i>
+                    </li>
+                    <li>
+                        <span>jquery</span>
+                        <i class='bx bxl-jquery' ></i>
+                    </li>
+                    <li>
+                        <span>vue</span>
+                        <i class='bx bxl-vuejs' ></i>
+                    </li>
+                    <li>
+                        <span>React & R/Native</span>
+                        <i class='bx bxl-react' ></i>
+                    </li>
+                    <li>
+                        <span>Angular</span>
+                        <i class='bx bxl-angular' ></i>
+                    </li>
+                    <li>
+                        <span>Nodejs</span>
+                        <i class='bx bxl-nodejs' ></i>
+                    </li>
+                    <li>
+                        <span>mongodb</span>
+                        <i class='bx bxl-mongodb' ></i>
+                    </li>
+                    <li>
+                        <span>php</span>
+                        <i class="fa fa-brands fa-php"></i>
+                    </li>
+                    <li>
+                        <span>postgresql</span>
+                        <i class='bx bxl-postgresql' ></i>
+                    </li>
+                    <li>
+                        <span>Symfony</span>
+                        <i class="fa fa-brands fa-symfony"></i>
+                    </li>
+                    <li>
+                        <span>Laravel</span>
+                        <i class="fa fa-brands fa-laravel"></i>
+                    </li>
+                    <li>
+                        <span>wordpress</span>
+                        <i class='bx bxl-wordpress' ></i>
+                    </li>
+                    <li>
+                        <span>git</span>
+                        <i class='bx bxl-git' ></i>
+                    </li>
+                    <li>
+                        <span>docker</span>
+                        <i class='bx bxl-docker' ></i>
+                    </li>
+                    <li>
+                        <span>mac osx</span>
+                        <i class='bx bxl-apple' ></i>
+                    </li>
+                    <li>
+                        <span>Linux</span>
+                        <i class="fa fa-brands fa-linux"></i>
+                    </li>
+                    <li>
+                        <span>windows</span>
+                        <i class='bx bxl-windows' ></i>
+                    </li>
+                    <li>
+                        <span>adobes</span>
+                        <i class='bx bxl-adobe' ></i>
+                    </li>
+                    <li>
+                        <span>figma</span>
+                        <i class='bx bxl-figma' ></i>
+                    </li>
+                </ul>
             </div>
         </section>
         <!-- Fim Section.bio -->
