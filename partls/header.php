@@ -78,7 +78,6 @@ require 'source/controller.php';
                 <li><a title="Portfólios | <?= DAA_NAME; ?>" href="">Portfólios</a></li>
                 <li><a title="Open Source | <?= DAA_NAME; ?>" href="">Open Source</a></li>
                 <li><a title="Notas | <?= DAA_NAME; ?>" href="">Notas</a></li>
-                <li><a title="Fale Comigo | <?= DAA_NAME; ?>" href="">Fale Comigo</a></li>
             </ul>
         </nav>
         <ul class="header__tools">
@@ -117,20 +116,21 @@ require 'source/controller.php';
     <div class="content__flex">
         <article class="header__article">
             <header class="header__article__group">
-                <h1>
-                    <?= DAA_OFFICE; ?>
-                </h1>
                 <h2>
-                    <?= DAA_SUBNAME; ?>
+                    <?= DAA_OFFICE; ?>
                 </h2>
+                <h3>
+                    <?= DAA_SUBNAME; ?>
+                </h3>
             </header>
-            <p></p>
-
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse explicabo laboriosam nostrum obcaecati
-            recusandae?
+            <p>
+                <?= DAA_DESCRIPTION; ?>
+            </p>
+            <button><i class="bx bxs-download"></i> Download CV</button>
         </article>
         <figure class="header__figure">
-            <img width="440" src="<?= DOMAIN; ?>/_storage/images/developer.svg" title="<?= DAA_NAME; ?>" alt="<?= DAA_DESCRIPTION; ?>">
+            <img width="440" src="<?= DOMAIN; ?>/_storage/images/developer.svg" title="<?= DAA_NAME; ?>"
+                 alt="<?= DAA_DESCRIPTION; ?>">
         </figure>
     </div>
 

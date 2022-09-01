@@ -5,24 +5,21 @@
         <section class="bio content">
             <h1 class="fz">Biografia | <?= DAA_NAME; ?></h1>
 
+            u
             <article class="article__bio">
                 <h2>Bom te ver aqui</h2>
                 <p>
-                    Estou na área de TI a um tempo considerável trabalhando como desenvolvedor e tenho muitas competências que provêm dos cursos que fiz online e/ou presenciais. Tenho um grande interesse em continuar me especializando cada vez mais em TI, atuando como desenvolvedor Front e Back End.
+                    Estou voltando a área de TI como desenvolvedor e tenho algumas competências que provêm dos cursos que fiz no passado online e/ou presenciais. Estou revendo e estudando novamente cursos e competências que tenho a fim de continuar me especializando cada vez mais em TI, atuando como desenvolvedor também estou disponível para viajar a trabalho.
                 </p>
                 <p>
-                    Trabalho como autônomo desenvolvendo websites e páginas para a internet do absoluto zero e quando necessário uso o CMS WordPress, toda via tenho alguns conhecimentos sobre outros CMS como Magento e Joomla.
+                    Trabalho como autônomo desenvolvendo projetos como websites e páginas para a internet usando quando necessário o CMS WordPress & WordPress (WooCommerce), toda via também já trabalhei com alguns outros CMS como Magento e Joomla.
                 </p>
                 <p>
-                    Desenvolvo projetos com as melhores tecnologias disponíveis do mercado como HTML5 e CSS3 para estruturar semanticamente e visualmente os projetos, Design Responsivo para adaptar o site a todas as telas, jQuery e/ou JavaScript para melhorar a experiência do usuário ao navegar no site/página e por fim utilizo pouco de PHP e Composer com ou sem WordPress para fazer o sistema de gerenciamento de conteúdo do projeto.
+                    Uso as seguintes tecnologias HTML5 e CSS3 para estruturar semanticamente e visualmente os projetos, Design Responsivo para adaptar o site a todas as telas, jQuery e/ou JavaScript para melhorar a experiência do usuário ao navegar no site/página e utilizo um pouco de PHP para melhorar a estrutura do projeto e se necessário Packs com Composer.
                 </p>
                 <p>
-                    E para maximizar o desempenho de um projeto onde tenho que trabalhar em equipe acho muito interessante e produtivo usar o versionamento de projeto com o Git utilizando o BitBucket, GitHub ou outro armazenador online.
+                    Para trabalhar em equipe normalmente utilizo o Git para o versionamento de projetos nos armazenadores mais comuns GitHub e BitBucket
                 </p>
-                <p>
-                    Tenho outros interesses distintos em algumas outras áreas como Financeira e Construção Civil e gostaria de obter algumas especializações nessas profissões no futuro sem é claro deixar de lado minha área de atuação principal.
-                </p>
-                <button><i class='bx bxs-download'></i> Download CV</button>
             </article>
         </section>
         <!-- Fim Section.bio -->

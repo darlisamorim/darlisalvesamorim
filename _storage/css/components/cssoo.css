@@ -15,6 +15,7 @@
 		#EBEBEB;
 		#FFFFFF;
 		#000000;
+		#28292b
 	*/
 
 	/* Color Base Default */
@@ -27,6 +28,7 @@
 
 	--gray: hsl(228, 9.8%, 10%);
 	--gray-hsla: hsla(0, 0%, 16%, .7);
+	--gray-var: hsl(220, 4%, 16%);
 
 
 	/* Color Main */
