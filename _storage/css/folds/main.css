@@ -111,6 +111,7 @@
     cursor: pointer;
     margin: 2% 1%;
     display: flex;
+    flex-basis: 10%;
     flex-direction: column;
     align-items: center;
     justify-content: center;

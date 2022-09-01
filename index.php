@@ -91,7 +91,7 @@
                         <i class='bx bxl-vuejs' ></i>
                     </li>
                     <li>
-                        <span>React & R/Native</span>
+                        <span>React's</span>
                         <i class='bx bxl-react' ></i>
                     </li>
                     <li>
