@@ -60,7 +60,8 @@
 	--font-mini: .525em;	/* 8.4px */
 	--font-normal: .875em;	/* 14px */
 	--font-smaller: 1.175em;	/* 16px */
-	--font-small: 2.175em;	/* 34px */
+	--font-small: 1.375em;	/* 34px */
+	--font-big: 2.175em;
 	--font-icon: 3.175em;	/* 34px */
 
 	/* Negrito */

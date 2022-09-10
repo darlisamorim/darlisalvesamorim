@@ -161,3 +161,58 @@
 .portfolios {
     background-color: var(--gray);
 }
+
+.portfolios .portfolios__mansory {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 350px;
+    overflow: hidden;
+}
+.portfolios .content__flex article {
+    overflow: hidden;
+    background-color: red;
+    margin: 2%;
+}
+
+.portfolios .content__flex article h2,
+.portfolios .content__flex article header h2 {
+    font-size: var(--font-big);
+}
+.portfolios .content__flex article p,
+.portfolios .content__flex article header p {
+    font-size: 22px;
+}
+.portfolios .content__flex article header {
+    padding: 40px;
+}
+.portfolios .content__flex article figure img {
+    object-fit: cover;
+    min-width: 100%;
+    height: 100%;
+}
+
+.portfolios .content__flex article:nth-of-type(5n+1),
+.portfolios .content__flex article:nth-of-type(5n+5) {
+    background-color: darkred;
+    grid-row: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolios .content__flex article:nth-of-type(5n+4),
+.portfolios .content__flex article:nth-of-type(5n+5) {
+    margin-bottom: 0;
+}
+.portfolios .content__flex article:nth-of-type(5n+2) {
+    background-color: purple; grid-row: span 2;
+}
+.portfolios .content__flex article:nth-of-type(5n+3) {
+    background-color: purple; grid-row: span 2;
+}
+.portfolios .content__flex article:nth-of-type(5n+4) {
+    background-color: purple; grid-row: span 2;
+}
+.portfolios .content__flex article:nth-of-type(5n+5) {
+    background-color: red; grid-row: span 1;
+}
