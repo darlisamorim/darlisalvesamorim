@@ -171,7 +171,7 @@
                     </article>
 
                     <article>
-                        <header>
+                        <header class="fz">
                             <h2>Latest Works</h2>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </header>
@@ -192,7 +192,7 @@
                         </figure>
                     </article>
                     <article>
-                        <header>
+                        <header class="fz">
                             <h2>Latest Works</h2>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </header>
@@ -212,7 +212,7 @@
                         </figure>
                     </article>
                     <article>
-                        <header>
+                        <header class="fz">
                             <h2>Latest Works</h2>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </header>
