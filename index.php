@@ -156,6 +156,56 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="content">
+
+                <article class="article__skills">
+                    <h1>Habilidades de Trabalho</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reiciendis itaque veritatis deserunt
+                        voluptas temporibus aliquid, placeat, ex vero omnis vel possimus voluptatem, debitis tempora
+                        eos. Voluptates consequatur deserunt quis!</p>
+
+                    <footer class="article__skills__footer">
+                        <div class="progress__content">
+                            <p class="progress__title">Desenvolvimento</p>
+                            <div class="progress">
+                                <p>
+                                    <span class="skill">HTML5</span>
+                                    <span class="percent">80%</span>
+                                </p>
+                                <div class="progress__item">
+                                    <div class="progress__bar"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <p>
+                                    <span class="skill">CSS3</span>
+                                    <span class="percent">90%</span>
+                                </p>
+                                <div class="progress__item">
+                                    <div class="progress__bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress__content">
+                            <p class="progress__title">Design</p>
+                            <div class="progress">
+                                <p>
+                                    <span class="skill">Figma</span>
+                                    <span class="percent">90%</span>
+                                </p>
+                                <div class="progress__item">
+                                    <div class="progress__bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+
+            </div>
+            <!-- Fim Div.content -->
+
         </section>
         <!-- Fim Section.bio -->
 
@@ -250,105 +300,55 @@
 
             <div class="content">
                 <article class="article__resumo">
-                    <h1>Resumo</h1>
+                    <h2>#Resumo</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reiciendis itaque veritatis deserunt
                         voluptas temporibus aliquid, placeat, ex vero omnis vel possimus voluptatem, debitis tempora
-                        eos. Voluptates consequatur deserunt quis!</p>
-                </article>
+                        eos. Voluptates consequatur deserunt quis!
+                    </p>
 
-                <nav>
-                    <h3>Educação</h3>
                     <ul>
                         <li>
                             <a title="" href="">
                                 <span class="school">SCHOOL OF INFORMATIONAL TECHNOLOGIES</span>
                             </a>
-                            <span class="time">2005 - 2012</span>
+                            <span><i>2005</i> - <i>2012</i></span>
                             <span>Software Engineer end Full Stack Developer</span>
                         </li>
                         <li>
                             <a title="" href="">
                                 <span class="school">SCHOOL OF INFORMATIONAL TECHNOLOGIES</span>
                             </a>
-                            <span class="time">2005 - 2012</span>
+                            <span><i>2005</i> - <i>2012</i></span>
                             <span>Software Engineer end Full Stack Developer</span>
                         </li>
                         <li>
                             <a title="" href="">
                                 <span class="school">SCHOOL OF INFORMATIONAL TECHNOLOGIES</span>
                             </a>
-                            <span class="time">2005 - 2012</span>
+                            <span><i>2005</i> - <i>2012</i></span>
                             <span>Software Engineer end Full Stack Developer</span>
                         </li>
                         <li>
                             <a title="" href="">
                                 <span class="school">SCHOOL OF INFORMATIONAL TECHNOLOGIES</span>
                             </a>
-                            <span class="time">2005 - 2012</span>
+                            <span><i>2005</i> - <i>2012</i></span>
                             <span>Software Engineer end Full Stack Developer</span>
                         </li>
                         <li>
                             <a title="" href="">
                                 <span class="school">SCHOOL OF INFORMATIONAL TECHNOLOGIES</span>
                             </a>
-                            <span class="time">2005 - 2012</span>
+                            <span><i>2005</i> - <i>2012</i></span>
                             <span>Software Engineer end Full Stack Developer</span>
                         </li>
                     </ul>
-                </nav>
-                <!-- Fim Nav -->
-
-            </div>
-            <!-- Fim Div.content -->
-
-            <div class="content">
-
-                <article class="article__skills">
-                    <h1>Habilidades de Trabalho</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reiciendis itaque veritatis deserunt
-                        voluptas temporibus aliquid, placeat, ex vero omnis vel possimus voluptatem, debitis tempora
-                        eos. Voluptates consequatur deserunt quis!</p>
-
-                    <footer class="article__skills__footer">
-                        <div class="progress__content">
-                            <p class="progress__title">Desenvolvimento</p>
-                            <div class="progress">
-                                <p>
-                                    <span class="skill">HTML5</span>
-                                    <span class="percent">80%</span>
-                                </p>
-                                <div class="progress__item">
-                                    <div class="progress__bar"></div>
-                                </div>
-                            </div>
-
-                            <div class="progress">
-                                <p>
-                                    <span class="skill">CSS3</span>
-                                    <span class="percent">90%</span>
-                                </p>
-                                <div class="progress__item">
-                                    <div class="progress__bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress__content">
-                            <p class="progress__title">Design</p>
-                            <div class="progress">
-                                <p>
-                                    <span class="skill">Figma</span>
-                                    <span class="percent">90%</span>
-                                </p>
-                                <div class="progress__item">
-                                    <div class="progress__bar"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
                 </article>
 
             </div>
             <!-- Fim Div.content -->
+
+
 
         </section>
         <!-- Fim Section.resumo -->
