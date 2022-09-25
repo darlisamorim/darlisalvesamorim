@@ -99,7 +99,12 @@ body {
     font-family: var(--font-name);
     font-size: var(--font-normal);
     background-color: var(--white);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
 /**
