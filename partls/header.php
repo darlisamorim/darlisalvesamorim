@@ -1,5 +1,5 @@
 <?php
-require 'source/controller.php';
+require 'source/environment.php';
 ?><!DOCTYPE html>
 <html lang="<?= DAA_LOCALE; ?>" itemscope itemtype="<?= DAA_SCHEMA; ?>" prefix="og: <?= DAA_SCHEMA_OPEN_GRAPH; ?>">
 <!-- Set your country language and website schema -->
